@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Download Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Music Download Site</h1>
+    </header>
+    <main>
+        <section id="music-list">
+            <h2>Available Music</h2>
+            <ul>
+                <li>
+                    <span>Song Title 1</span>
+                    <a href="music/song1.mp3" download>Download</a>
+                </li>
+                <li>
+                    <span>Song Title 2</span>
+                    <a href="music/song2.mp3" download>Download</a>
+                </li>
+                <!-- Add more songs here -->
+            </ul>
+        </section>
+    </main>
+    <script src="js/scripts.js"></script>
+</body>
+</html>body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 2em;
+}
+
+#music-list {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#music-list h2 {
+    margin-top: 0;
+}
+
+#music-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#music-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#music-list li:last-child {
+    border-bottom: none;
+}
+
+#music-list a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#music-list a:hover {
+    text-decoration: underline;
+}// This file is intentionally left blank for this basic example.
+// You can add functionality here if needed later.
